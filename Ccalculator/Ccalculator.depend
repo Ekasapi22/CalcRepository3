@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1680643191 source:c:\users\user\onedrive\desktop\repositories\calcrepository2\ccalculator\main.c
-	<stdio.h>
-	<stdlib.h>
-	<math.h>
-
