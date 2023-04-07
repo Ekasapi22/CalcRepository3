@@ -2,6 +2,29 @@
 #include <stdlib.h>
 #include <math.h>
 
+void average()
+{
+    double num,avg,sum=0;
+    int cnt=0;
+
+    while(1)
+    {
+        scanf("%lf",&num);
+        if(num==0)
+        {
+            break;
+        }
+
+        sum+=num;
+        cnt++;
+    }
+
+    avg=sum/cnt;
+    printf("%lf",avg);
+}
+
+
+
 void addition(double a,double b)
 {
     double c=0;
@@ -92,6 +115,9 @@ int main()
     case 's':
         scanf("%lf",&a);
         squareroot(a);
+        break;
+    case 'a':
+        average();
         break;
 
     }
